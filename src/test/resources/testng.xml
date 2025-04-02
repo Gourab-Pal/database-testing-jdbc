@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite for Buildout">
+    <test name = "Test Cases for Buildout">
+       <classes>          
+            <class name="demo.Template">
+                <methods>
+                    <!-- <include name="testcase01" />
+                    <include name="testcase02" /> -->
+                    <include name="testcase03" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
